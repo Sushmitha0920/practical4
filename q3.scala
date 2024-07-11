@@ -1,4 +1,4 @@
-object activity4_3 {
+object ChangeFormat {
 
   def toUpper(s: String): String = s.toUpperCase
 
