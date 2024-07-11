@@ -14,9 +14,9 @@ object activity4_3 {
     val saman = formatNames("Saman")(toLower)
     val kumara = formatNames("Kumara")(name => name.take(name.length - 1) + name.last.toUpper)
 
-    println(benny)      // Output: BENNY
-    println(niroshan)   // Output: NIroshan
-    println(saman)      // Output: saman
-    println(kumara)     // Output: KumarA
+    println(benny)
+    println(niroshan)
+    println(saman)
+    println(kumara)
   }
 }
